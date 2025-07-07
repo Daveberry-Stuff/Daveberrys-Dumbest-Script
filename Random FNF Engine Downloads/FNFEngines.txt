@@ -1,0 +1,15 @@
+https://github.com/ShadowMario/FNF-PsychEngine/releases/download/1.0.4/PsychEngine-Windows64.zip
+https://nightly.link/CodenameCrew/CodenameEngine/workflows/windows/main/Codename%20Engine.zip
+https://github.com/CodenameCrew/YoshiCrafterEngine/releases/download/v2.3.1/Windows.zip
+https://github.com/notweuz/FNF-OSEngine/releases/download/1.5.1/bin.zip
+https://nightly.link/JordanSantiagoYT/FNF-JS-Engine/workflows/main/main/windowsBuild.zip
+https://github.com/Verwex/Funkin-Mic-d-Up-SC/releases/download/v2.0.3/FNF-Mic.dUP-v2.0.3.zip
+https://github.com/ThatRozebudDude/FPS-Plus-Public/releases/download/v7.1.1/fpsplus_v7_1_1.zip
+https://github.com/VideoBotYT/Universe-Engine/releases/download/0.5.5/FNF-Universe-Engine-windows.zip
+https://github.com/VideoBotYT/Universe-Engine/releases/download/y25v02a/FNF-Universe-Engine-windows.zip
+https://itchio-mirror.cb031a832f44726753d6267436f3b414.r2.cloudflarestorage.com/build/1257471/4874793-archive-default?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=3edfcce40115d057d0b5606758e7e9ee%2F20250508%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250508T082826Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=c88af84c16d573aaa6ef9b479b4c6c8b34dcfe06e664d32961f568d901aada3f
+https://github.com/KadeArchive/Kade-Engine/releases/download/1.8/Kade.Engine.1.8.7z
+https://download.gamejolt.net/c811604da6c13d45439623091d84f39f4e51458c9d1f0619597c0629736c42e5,1751984782,7/data/games/10/96/644096/files/622e480575519/nufnf-v2.1.0.zip
+https://github.com/ClassicBoost/Psych-Forever/releases/download/v0.4-final/Psych.Forever.zip
+https://github.com/Leather128/LeatherEngine/releases/download/v0.4.2/Windows.x64.Build.zip
+https://github.com/DoidoTeam/FNF-Doido-Engine/releases/download/3.4.0/DoidoEngine-3.4.0-Windows-x64.zip

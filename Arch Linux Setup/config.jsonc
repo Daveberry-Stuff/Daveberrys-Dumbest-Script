@@ -1,0 +1,63 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "modules": [
+    {
+      "type": "custom",
+      "format": "──────────────────────────────────────────────────────────────"
+    },
+    {
+      "type": "title",
+      "key": "This PC {icon} ",
+      "format": "{user-name} • {host-name}"
+    },
+    {
+      "type": "os",
+      "key": "│ └> {icon} Operating System",
+      "format": "{name} {arch}"
+    },
+    {
+      "type": "uptime",
+      "key": "│ └> {icon} Up Time"
+    },
+    {
+      "type": "display",
+      "key": "│ └> {icon} Display"
+    },
+    {
+      "type": "cpu",
+      "key": "│ └> {icon} CPU"
+    },
+    {
+      "type": "gpu",
+      "key": "│ └> {icon} GPU"
+    },
+    {
+      "type": "memory",
+      "key": "│ └> {icon} Memory"
+    },
+    {
+      "type": "swap",
+      "key": "│ └> {icon} Swap"
+    },
+    {
+      "type": "disk",
+      "key": "│ └> {icon} Disk"
+    },
+    {
+      "type": "localip",
+      "key": "│ └> {icon} Local-IP"
+    },
+    {
+      "type": "custom",
+      "format": "──────────────────────────────────────────────────────────────"
+    },
+    {
+      "type": "custom",
+      "format": "         FastFetch By {#34}https://daveberry.netlify.app/"
+    },
+    {
+      "type": "custom",
+      "format": "──────────────────────────────────────────────────────────────"
+    }
+  ]
+}

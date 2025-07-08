@@ -144,39 +144,39 @@ if FLATPAK; then {
     }
 fi
 
-select install in "${discord[@]}"; do
-    case $install in
-    "Discord")
-        echo "Selected to install Normal Discord."
-        DISCORD=true
-        VESKTOP=false
-        LEGCORD=false
-        break
-        ;;
-    "Vesktop")
-        echo "Selected to install Vesktop."
-        DISCORD=false
-        VESKTOP=true
-        LEGCORD=false
-        break
-        ;;
-    "Legcord")
-        echo "Selected to install Legcord."
-        DISCORD=false
-        VESKTOP=false
-        LEGCORD=true
-        break
-        ;;
-    "None")
-        echo "Selected to not install discord."
-        DISCORD=false
-        VESKTOP=false
-        LEGCORD=false
-        break
-        ;;
-    *) echo "Invalid option $REPLY!" ;;
-    esac
-done
+# select install in "${discord[@]}"; do
+#     case $install in
+#     "Discord")
+#         echo "Selected to install Normal Discord."
+#         DISCORD=true
+#         VESKTOP=false
+#         LEGCORD=false
+#         break
+#         ;;
+#     "Vesktop")
+#         echo "Selected to install Vesktop."
+#         DISCORD=false
+#         VESKTOP=true
+#         LEGCORD=false
+#         break
+#         ;;
+#     "Legcord")
+#         echo "Selected to install Legcord."
+#         DISCORD=false
+#         VESKTOP=false
+#         LEGCORD=true
+#         break
+#         ;;
+#     "None")
+#         echo "Selected to not install discord."
+#         DISCORD=false
+#         VESKTOP=false
+#         LEGCORD=false
+#         break
+#         ;;
+#     *) echo "Invalid option $REPLY!" ;;
+#     esac
+# done
 
 echo "You have 5 seconds to back out! (CTRL + C)"
 # sleep 5
@@ -236,7 +236,7 @@ if $AUR; then {
     cd ..
     rm -rf yay
 }; else {
-    echo "Skipping Arch User Repository..."
+    echo "Skipping Arch User Repository... (Possibly not reccomended!)"
 } fi
 
 if $INSTALL_STEAM; then {

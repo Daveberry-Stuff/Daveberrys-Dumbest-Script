@@ -91,11 +91,11 @@ function FLATPAK() {
 }
 
 if FISH; then {
-    echo "Selected to Install FISH."
+    echo "Selected to Install fish."
     FISH=true
 }; else
     {
-        echo "Selected to not Install FISH."
+        echo "Selected to not Install fish."
     }
 fi
 

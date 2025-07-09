@@ -19,6 +19,13 @@ discord=("Discord" "Vesktop" "Legcord" "None")
 AUR=false
 FLATPAK=false
 
+OPTIONS="${OPTIONS} FISH"
+OPTIONS="${OPTIONS} NVIDIA"
+OPTIONS="${OPTIONS} CUSTOM_FASTFETCH"
+OPTIONS="${OPTIONS} INSTALL_STEAM"
+OPTIONS="${OPTIONS} AUR"
+OPTIONS="${OPTIONS} FLATPAK"
+
 echo "We need your password as this script cannot install programs without a password!"
 echo "Note: This script does NOT share your password, you are free to check the source code."
 echo "I am not a evil person and I will ever brick a operating system, I am just making this script for newbies or for quick setups."
@@ -187,14 +194,14 @@ if $FISH; then {
     yes | sudo pacman -S fish
 }; else {
     echo "Skipping fish..."
-} fi
+}; fi
 
 if $NVIDIA; then {
     echo "Installing nvidia-utils and nvidia..."
     yes | sudo pacman -S nvidia-utils nvidia
 }; else {
     echo "Skipping nvidia-utils..."
-} fi
+}; fi
 
 if $CUSTOM_FASTFETCH; then {
     echo "Installing custom fastfetch..."
@@ -202,26 +209,28 @@ if $CUSTOM_FASTFETCH; then {
 
     mkdir ~/.config/fastfetch
     cp config.jsonc ~/.config/fastfetch/
-
     # me when open konsole, it fucking does fastfetch >:3
+
     if $FISH; then {
-        echo fastfetch > ~/.config/fish/config.fish
-    }; else {
-        # if i had to guess you were using fucking bash lmao
-        mkdir ~/.dave_arch_setup_backup
-        mv ~/.bashrc ~/.dave_arch_setup_backup
-        echo fastfetch > ~/.bashrc
-    }
+        echo fastfetch >~/.config/fish/config.fish
+    }; else
+        {
+            # if i had to guess you were using fucking bash lmao
+            mkdir ~/.dave_arch_setup_backup
+            mv ~/.bashrc ~/.dave_arch_setup_backup
+            echo fastfetch >~/.bashrc
+        }
+    fi
 }; else {
     echo "Skipping custom fastfetch..."
-} fi
+}; fi
 
 if $INSTALL_STEAM; then {
     echo "Installing Steam..."
     yes | sudo pacman -S steam
 }; else {
     echo "Skipping Steam..."
-} fi
+}; fi
 
 if $AUR; then {
     echo "Installing Arch User Repository..."
@@ -236,12 +245,12 @@ if $AUR; then {
     cd ..
     rm -rf yay
 }; else {
-    echo "Skipping Arch User Repository... (Possibly not reccomended!)"
-} fi
+    echo "Skipping Arch User Repository..."
+}; fi
 
 if $INSTALL_STEAM; then {
     echo "Installing Flatpak..."
     yes | sudo pacman -S flatpak
 }; else {
     echo "Skipping Flatpak..."
-} fi
+}; fi

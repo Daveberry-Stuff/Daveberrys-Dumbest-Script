@@ -19,6 +19,7 @@ discord=("Discord" "Vesktop" "Legcord" "None")
 AUR=false
 FLATPAK=false
 
+clear
 echo "We need your password as this script cannot install programs without a password!"
 echo "Note: This script does NOT share your password, you are free to check the source code."
 echo "I am not a evil person and I will ever brick a operating system, I am just making this script for newbies or for quick setups."

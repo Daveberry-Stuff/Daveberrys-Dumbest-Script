@@ -7,7 +7,6 @@
 FISH=false
 NVIDIA=false
 CUSTOM_FASTFETCH=false
-INSTALL_STEAM=false
 
 DISCORD=false
 VESKTOP=false

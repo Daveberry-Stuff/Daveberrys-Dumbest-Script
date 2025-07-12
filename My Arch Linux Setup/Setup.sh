@@ -58,17 +58,6 @@ function CUSTOM_FASTFETCH() {
     done
 }
 
-function INSTALL_STEAM() {
-    while true; do
-        read -p "> Do you want to install steam? (y/n/c) " yn
-        case $yn in
-        [Yy]*) return 0 ;;
-        [Nn]*) return 1 ;;
-        *) echo "Please answer y = YES or n = NO" ;;
-        esac
-    done
-}
-
 function AUR() {
     while true; do
         read -p "> Do you want to install Arch User Repository? (y/n/c) " yn
@@ -115,15 +104,6 @@ if CUSTOM_FASTFETCH; then {
 }; else
     {
         echo "Selected to not custom Install fastfetch."
-    }
-fi
-
-if INSTALL_STEAM; then {
-    echo "Selected to Install Steam."
-    INSTALL_STEAM=true
-}; else
-    {
-        echo "Selected to not Install Steam."
     }
 fi
 
@@ -217,13 +197,6 @@ if $CUSTOM_FASTFETCH; then {
     fi
 }; else {
     echo "Skipping custom fastfetch..."
-}; fi
-
-if $INSTALL_STEAM; then {
-    echo "Installing Steam..."
-    yes | sudo pacman -S steam
-}; else {
-    echo "Skipping Steam..."
 }; fi
 
 if $AUR; then {

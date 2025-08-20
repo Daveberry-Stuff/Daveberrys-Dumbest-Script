@@ -1,15 +1,15 @@
-# Daveberry's Dumbest (Linux Bash) Scripts
+# Daveberry's Dumbest Scripts
 
 
 ## 🤔 What is this repository?
 
-Just my dumbest (linux sh) scripts.
+Just my dumbest scripts.
 
 ---
 
 What you can do:
 - Use the script <br>
-- Use the script public with credit
+- Share the script with credit
 
 <br>
 
@@ -19,7 +19,3 @@ What you CANT do:
 - Claim that it's "yours"
 
 Feel free to do pull-requests.
-
----
-
-###### All these scripts were made in EndeavourOS! (Arch Linux Based)
